@@ -11,9 +11,23 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="#" id="survey-form">
-      <label for="name">Name </label><input placeholder="Enter your name" name="name" type="text" id="name" required>
-      <label for="email">Email </label><input placeholder="Enter your Email" name="email" type="text" id="email" required>
-      <label for="email">Age (optional) </label><input placeholder="Age" name="email" type="text" id="email" required>
+      <label for="name-label">Name <input placeholder="Enter your name" name="name" type="text" id="name-label" required></label>
+      <label for="email-label">Email <input placeholder="Enter your Email" name="email" type="text" id="email-label" required></label>
+      <label for="number-label">Age (optional) <input placeholder="Age" name="Age" type="number" id="number-label" min="13" max="110" required></label>
+      <label for="dropdown">Which option best describes your current role?
+        <select name="dropdown" id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full time Job</option>
+          <option value="3">Full time Learner</option>
+          <option value="4">Other</option>
+          <option value="5">Prefer not to say</option>
+        </select>
+      </label>
+      <legend>Would you recommend freeCodeCamp to a friend?</legend>
+      <label class="radio-label" for="Definitely"><input type="radio" class="radio-input" name="recommendation-type" id="Definitely">Definitely</label>
+      <label class="radio-label" for="Maybe"><input type="radio" class="radio-input" name="recommendation-type" id="Maybe">Maybe</label>
+      <label class="radio-label" for="Not-Sure"><input type="radio" class="radio-input" name="recommendation-type" id="Not-Sure">Not sure</label>
     </form>
 </body>
 </html>
