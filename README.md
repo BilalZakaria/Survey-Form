@@ -8,3 +8,7 @@ Super simple project. I just used the following:
 
 ## 🚀 Image
 ![Screenshot of project](https://i.imgur.com/fv1LIN8.png)
+
+## LIVE PREVIEW:
+To access a live preview, kindly click the link.
+https://bilalzakaria.github.io/Survey-Form/
