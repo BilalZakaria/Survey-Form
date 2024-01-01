@@ -1,9 +1,10 @@
-# Survey-Form
-## 🚀🌐 CodeCamp Survey Form Submission Project Readme
+# 🌐 Survey-Form
+A project for freeCodeCamp to illustrate using HTML and CSS to create survey forms.
 
 ## 🔧 Technologies Used
-This project uses the following technologies:
-1)HTML
-2)CSS
+Super simple project. I just used the following: 
+* HTML
+* CSS 
 
-Super simple project :)
+## 🚀 Image
+![Screenshot of project](https://i.imgur.com/fv1LIN8.png)
