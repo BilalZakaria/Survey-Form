@@ -11,9 +11,9 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="#" id="survey-form">
-      <label for="name-label">Name <input placeholder="Enter your name" name="name" type="text" id="name-label" required></label>
-      <label for="email-label">Email <input placeholder="Enter your Email" name="email" type="text" id="email-label" required></label>
-      <label for="number-label">Age (optional) <input placeholder="Age" name="Age" type="number" id="number-label" min="13" max="110" required></label>
+      <label id="name-label" for="name-label">Name <input placeholder="Enter your name" name="name" type="text" id="name" required></label>
+      <label id="email-label" for="email-label">Email <input placeholder="Enter your Email" name="email" type="email" id="email" required></label>
+      <label id="number-label" for="number-label">Age (optional) <input placeholder="Age" name="Age" type="number" id="number" min="13" max="110" required></label>
       <label for="dropdown">Which option best describes your current role?
         <select name="dropdown" id="dropdown">
           <option value="">Select current role</option>
@@ -25,9 +25,22 @@
         </select>
       </label>
       <legend>Would you recommend freeCodeCamp to a friend?</legend>
-      <label class="radio-label" for="Definitely"><input type="radio" class="radio-input" name="recommendation-type" id="Definitely">Definitely</label>
-      <label class="radio-label" for="Maybe"><input type="radio" class="radio-input" name="recommendation-type" id="Maybe">Maybe</label>
-      <label class="radio-label" for="Not-Sure"><input type="radio" class="radio-input" name="recommendation-type" id="Not-Sure">Not sure</label>
+      <label class="radio-label" for="Definitely"><input type="radio" value="definitely" class="input" name="recommendation-type" id="Definitely">Definitely</label>
+      <label class="radio-label" for="Maybe"><input type="radio" class="input" value ="maybe" name="recommendation-type" id="Maybe">Maybe</label>
+      <label class="radio-label" for="Not-Sure"><input type="radio" class="input" value="not-sure" name="recommendation-type" id="Not-Sure">Not sure</label>
+      <select name="improvements" id="improvements">
+        <option value="">Select an option</option>
+        <option value="1">Challenges</option>
+        <option value="2">Projects</option>
+      </select>
+      <legend class="checkbox-legend">What would you like to see improved?</legend>
+      <label class="radio-label" for="front-end"><input class="input" value="front-end-projects" type="checkbox" name="check-boxes" id="front-end">Front-end projects</label>
+      <label class="radio-label" for="back-end"><input class="input" value="back-end-projects" type="checkbox" name="check-boxes" id="back-end">Back-end projects</label>
+      <label class="radio-label" for="data-visualization"><input class="input" value="data-visualization" type="checkbox" name="check-boxes" id="data-visualization">Data Visualization</label>
+      <label class="comment-label" id="comment-label" for="comments">Any comments or suggestions?
+        <textarea class="inline" name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
     </form>
 </body>
 </html>
