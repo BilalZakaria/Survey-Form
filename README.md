@@ -11,4 +11,4 @@ Super simple project. I just used the following:
 
 ## LIVE PREVIEW:
 To access a live preview, kindly click the link.
-https://bilalzakaria.github.io/Survey-Form/
+https://sometimesb.github.io/Survey-Form/
